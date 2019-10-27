@@ -57,7 +57,7 @@ final class AnimalStore: StorageService {
     }
     
     func delete(_ index: Int, completion: @escaping (Result<Void?, StorageError>) -> Void) {
-        guard index < animals.count else {
+        guard animals.indices.contains(index) else {
             completion(.failure(StorageError.deleteFailed))
             return
         }

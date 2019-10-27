@@ -38,6 +38,9 @@ class AnimalListViewModel {
     }
     
     func deleteAnimal(at index: Int) {
+        guard animals.indices.contains(index) else {
+            return
+        }
         storageService.delete(index) { [weak self] result in
             guard let self = self else {
                 return
