@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30FDA00E2365CAB2000F299C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA00D2365CAB2000F299C /* AppDelegate.swift */; };
+		30FDA0132365CAB2000F299C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FDA0112365CAB2000F299C /* Main.storyboard */; };
+		30FDA0152365CAB3000F299C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FDA0142365CAB3000F299C /* Assets.xcassets */; };
+		30FDA0182365CAB3000F299C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FDA0162365CAB3000F299C /* LaunchScreen.storyboard */; };
+		30FDA0422365CAD4000F299C /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA0222365CAD2000F299C /* Alertable.swift */; };
+		30FDA0432365CAD4000F299C /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA0232365CAD2000F299C /* ConfigurableCell.swift */; };
+		30FDA0442365CAD4000F299C /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA0242365CAD2000F299C /* ReusableCell.swift */; };
+		30FDA04A2365CAD4000F299C /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA02B2365CAD3000F299C /* Animal.swift */; };
+		30FDA04B2365CAD4000F299C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA02D2365CAD3000F299C /* Constants.swift */; };
+		30FDA04C2365CAD4000F299C /* AnimalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA02F2365CAD3000F299C /* AnimalListViewController.swift */; };
+		30FDA04D2365CAD4000F299C /* AnimalRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA0302365CAD3000F299C /* AnimalRegisterViewController.swift */; };
+		30FDA0502365CAD4000F299C /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA0342365CAD3000F299C /* StorageService.swift */; };
+		30FDA0512365CAD4000F299C /* AnimalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA0352365CAD3000F299C /* AnimalStore.swift */; };
+		30FDA0542365CAD4000F299C /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA0392365CAD3000F299C /* AnimalTableViewCell.swift */; };
+		30FDA0552365CAD4000F299C /* PickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA03A2365CAD3000F299C /* PickerTableViewCell.swift */; };
+		30FDA0562365CAD4000F299C /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA03B2365CAD3000F299C /* FieldTableViewCell.swift */; };
+		30FDA0572365CAD4000F299C /* AnimalRegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA03D2365CAD4000F299C /* AnimalRegisterViewModel.swift */; };
+		30FDA0582365CAD4000F299C /* AnimalListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA03E2365CAD4000F299C /* AnimalListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30FDA00A2365CAB2000F299C /* AnimalManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FDA00D2365CAB2000F299C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30FDA0122365CAB2000F299C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30FDA0142365CAB3000F299C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30FDA0172365CAB3000F299C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30FDA0192365CAB3000F299C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FDA0222365CAD2000F299C /* Alertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		30FDA0232365CAD2000F299C /* ConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+		30FDA0242365CAD2000F299C /* ReusableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+		30FDA02B2365CAD3000F299C /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		30FDA02D2365CAD3000F299C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30FDA02F2365CAD3000F299C /* AnimalListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalListViewController.swift; sourceTree = "<group>"; };
+		30FDA0302365CAD3000F299C /* AnimalRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalRegisterViewController.swift; sourceTree = "<group>"; };
+		30FDA0342365CAD3000F299C /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		30FDA0352365CAD3000F299C /* AnimalStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalStore.swift; sourceTree = "<group>"; };
+		30FDA0392365CAD3000F299C /* AnimalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalTableViewCell.swift; sourceTree = "<group>"; };
+		30FDA03A2365CAD3000F299C /* PickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTableViewCell.swift; sourceTree = "<group>"; };
+		30FDA03B2365CAD3000F299C /* FieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
+		30FDA03D2365CAD4000F299C /* AnimalRegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalRegisterViewModel.swift; sourceTree = "<group>"; };
+		30FDA03E2365CAD4000F299C /* AnimalListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30FDA0072365CAB2000F299C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FDA0012365CAB2000F299C = {
+			isa = PBXGroup;
+			children = (
+				30FDA00C2365CAB2000F299C /* AnimalManager */,
+				30FDA00B2365CAB2000F299C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30FDA00B2365CAB2000F299C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30FDA00A2365CAB2000F299C /* AnimalManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30FDA00C2365CAB2000F299C /* AnimalManager */ = {
+			isa = PBXGroup;
+			children = (
+				30FDA02C2365CAD3000F299C /* Constants */,
+				30FDA02E2365CAD3000F299C /* Controller */,
+				30FDA02A2365CAD3000F299C /* Model */,
+				30FDA0332365CAD3000F299C /* Persistence */,
+				30FDA0212365CAD2000F299C /* Protocol */,
+				30FDA0382365CAD3000F299C /* View */,
+				30FDA03C2365CAD4000F299C /* ViewModel */,
+				30FDA00D2365CAB2000F299C /* AppDelegate.swift */,
+				30FDA0112365CAB2000F299C /* Main.storyboard */,
+				30FDA0142365CAB3000F299C /* Assets.xcassets */,
+				30FDA0162365CAB3000F299C /* LaunchScreen.storyboard */,
+				30FDA0192365CAB3000F299C /* Info.plist */,
+			);
+			path = AnimalManager;
+			sourceTree = "<group>";
+		};
+		30FDA0212365CAD2000F299C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				30FDA0222365CAD2000F299C /* Alertable.swift */,
+				30FDA0232365CAD2000F299C /* ConfigurableCell.swift */,
+				30FDA0242365CAD2000F299C /* ReusableCell.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		30FDA02A2365CAD3000F299C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30FDA02B2365CAD3000F299C /* Animal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30FDA02C2365CAD3000F299C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				30FDA02D2365CAD3000F299C /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		30FDA02E2365CAD3000F299C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30FDA02F2365CAD3000F299C /* AnimalListViewController.swift */,
+				30FDA0302365CAD3000F299C /* AnimalRegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30FDA0332365CAD3000F299C /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				30FDA0342365CAD3000F299C /* StorageService.swift */,
+				30FDA0352365CAD3000F299C /* AnimalStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		30FDA0382365CAD3000F299C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30FDA0392365CAD3000F299C /* AnimalTableViewCell.swift */,
+				30FDA03A2365CAD3000F299C /* PickerTableViewCell.swift */,
+				30FDA03B2365CAD3000F299C /* FieldTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30FDA03C2365CAD4000F299C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30FDA03D2365CAD4000F299C /* AnimalRegisterViewModel.swift */,
+				30FDA03E2365CAD4000F299C /* AnimalListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30FDA0092365CAB2000F299C /* AnimalManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FDA01C2365CAB3000F299C /* Build configuration list for PBXNativeTarget "AnimalManager" */;
+			buildPhases = (
+				30FDA0062365CAB2000F299C /* Sources */,
+				30FDA0072365CAB2000F299C /* Frameworks */,
+				30FDA0082365CAB2000F299C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalManager;
+			productName = AnimalManager;
+			productReference = 30FDA00A2365CAB2000F299C /* AnimalManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30FDA0022365CAB2000F299C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = BLU;
+				TargetAttributes = {
+					30FDA0092365CAB2000F299C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 30FDA0052365CAB2000F299C /* Build configuration list for PBXProject "AnimalManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30FDA0012365CAB2000F299C;
+			productRefGroup = 30FDA00B2365CAB2000F299C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30FDA0092365CAB2000F299C /* AnimalManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30FDA0082365CAB2000F299C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FDA0182365CAB3000F299C /* LaunchScreen.storyboard in Resources */,
+				30FDA0152365CAB3000F299C /* Assets.xcassets in Resources */,
+				30FDA0132365CAB2000F299C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30FDA0062365CAB2000F299C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FDA0432365CAD4000F299C /* ConfigurableCell.swift in Sources */,
+				30FDA0572365CAD4000F299C /* AnimalRegisterViewModel.swift in Sources */,
+				30FDA04A2365CAD4000F299C /* Animal.swift in Sources */,
+				30FDA0502365CAD4000F299C /* StorageService.swift in Sources */,
+				30FDA0512365CAD4000F299C /* AnimalStore.swift in Sources */,
+				30FDA0582365CAD4000F299C /* AnimalListViewModel.swift in Sources */,
+				30FDA04C2365CAD4000F299C /* AnimalListViewController.swift in Sources */,
+				30FDA0542365CAD4000F299C /* AnimalTableViewCell.swift in Sources */,
+				30FDA0552365CAD4000F299C /* PickerTableViewCell.swift in Sources */,
+				30FDA00E2365CAB2000F299C /* AppDelegate.swift in Sources */,
+				30FDA0442365CAD4000F299C /* ReusableCell.swift in Sources */,
+				30FDA04B2365CAD4000F299C /* Constants.swift in Sources */,
+				30FDA0562365CAD4000F299C /* FieldTableViewCell.swift in Sources */,
+				30FDA0422365CAD4000F299C /* Alertable.swift in Sources */,
+				30FDA04D2365CAD4000F299C /* AnimalRegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30FDA0112365CAB2000F299C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FDA0122365CAB2000F299C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30FDA0162365CAB3000F299C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FDA0172365CAB3000F299C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30FDA01A2365CAB3000F299C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30FDA01B2365CAB3000F299C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30FDA01D2365CAB3000F299C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BLU.AnimalManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30FDA01E2365CAB3000F299C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BLU.AnimalManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30FDA0052365CAB2000F299C /* Build configuration list for PBXProject "AnimalManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FDA01A2365CAB3000F299C /* Debug */,
+				30FDA01B2365CAB3000F299C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FDA01C2365CAB3000F299C /* Build configuration list for PBXNativeTarget "AnimalManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FDA01D2365CAB3000F299C /* Debug */,
+				30FDA01E2365CAB3000F299C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30FDA0022365CAB2000F299C /* Project object */;
+}
