@@ -11,9 +11,9 @@ import UIKit
 class AnimalTableViewCell: UITableViewCell, ConfigurableCell {
 
     // MARK: - IBOutlets
-    @IBOutlet weak var profileImageView: UIImageView!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet private weak var profileImageView: UIImageView!
+    @IBOutlet private weak var nameLabel: UILabel!
+    @IBOutlet private weak var typeLabel: UILabel!
     
     // MARK: - Lifecycle
     override func awakeFromNib() {
