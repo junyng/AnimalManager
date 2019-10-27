@@ -11,6 +11,7 @@ import Foundation
 enum StorageError: Error {
     case saveFailed
     case loadFailed
+    case deleteFailed
     
     var localizedDescription: String {
         switch self {
@@ -18,6 +19,8 @@ enum StorageError: Error {
             return "저장에 실패하였습니다."
         case .loadFailed:
             return "불러오기에 실패하였습니다."
+        case .deleteFailed:
+            return "삭제에 실패하였습니다."
         }
     }
 }
@@ -54,6 +57,10 @@ final class AnimalStore: StorageService {
     }
     
     func delete(_ index: Int, completion: @escaping (Result<Void?, StorageError>) -> Void) {
+        guard index < animals.count else {
+            completion(.failure(StorageError.deleteFailed))
+            return
+        }
         animals.remove(at: index)
         do {
             try saveAll()
