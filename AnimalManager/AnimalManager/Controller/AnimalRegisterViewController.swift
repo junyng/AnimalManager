@@ -27,7 +27,7 @@ enum Input {
 class AnimalRegisterViewController: UIViewController, Alertable {
     
     // MARK: - IBOutlets
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet private weak var tableView: UITableView!
     
     // MARK: - Properties
     var viewModel: AnimalRegisterViewModel?
