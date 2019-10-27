@@ -92,10 +92,10 @@ extension AnimalRegisterViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let field = viewModel?.cellTypes[indexPath.row] else {
+        guard let type = viewModel?.cellTypes[indexPath.row] else {
             return UITableViewCell()
         }
-        switch field {
+        switch type {
         case .field(let input):
             if let cell = tableView.dequeueReusableCell(withIdentifier: FieldTableViewCell.reuseIdentifier) as? FieldTableViewCell {
                 cell.configure(input.text)
