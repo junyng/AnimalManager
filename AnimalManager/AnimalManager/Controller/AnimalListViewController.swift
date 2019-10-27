@@ -41,6 +41,7 @@ class AnimalListViewController: UIViewController, Alertable {
             guard let self = self else {
                 return
             }
+            self.deselectSelectedRow()
             guard let cryingSound = animal.cryingSound else {
                 return
             }
@@ -50,7 +51,6 @@ class AnimalListViewController: UIViewController, Alertable {
                 preferredStyle: .alert,
                 completion: nil
             )
-            self.deselectSelectedRow()
         }
         viewModel?.didError = { [weak self] error in
             guard let self = self else {
