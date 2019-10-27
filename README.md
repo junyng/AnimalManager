@@ -6,5 +6,4 @@
 
 ## 실행화면
 
-![../Images/main](../Images/main.png)![../Images/register](../Images/register.png)
-
+![Images/main](Images/main.png)![Images/register](Images/register.png)
