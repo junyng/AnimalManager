@@ -156,7 +156,7 @@
             </objects>
             <point key="canvasLocation" x="199" y="-34"/>
         </scene>
-        <!--동물 관리-->
+        <!--동물 내역-->
         <scene sceneID="Xne-gV-Yh5">
             <objects>
                 <viewController id="Sav-JY-hsG" customClass="AnimalListViewController" customModule="AnimalKeeper" customModuleProvider="target" sceneMemberID="viewController">
@@ -234,7 +234,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Z9i-Vd-f7T"/>
                     </view>
-                    <navigationItem key="navigationItem" title="동물 관리" id="UNT-Sq-lUD">
+                    <navigationItem key="navigationItem" title="동물 내역" id="UNT-Sq-lUD">
                         <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="jeM-Ia-ZaC">
                             <connections>
                                 <segue destination="xDq-1n-ZRS" kind="show" id="m4G-gE-wHG"/>
