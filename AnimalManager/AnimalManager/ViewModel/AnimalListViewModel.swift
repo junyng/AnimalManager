@@ -55,6 +55,9 @@ class AnimalListViewModel {
     }
     
     func selectAnimal(at index: Int) {
+        guard animals.indices.contains(index) else {
+            return
+        }
         let animal = animals[index]
         self.didSelectAnimal?(animal)
     }

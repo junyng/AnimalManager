@@ -11,7 +11,7 @@ import UIKit
 class PickerTableViewCell: UITableViewCell, ReusableCell {
     
     // MARK: - IBOutlets
-    @IBOutlet private weak var pickerView: UIPickerView!
+    @IBOutlet weak var pickerView: UIPickerView!
     
     // MARK: - Lifecycle
     override func awakeFromNib() {
