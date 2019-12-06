@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30866008239A32E900C61B40 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30866007239A32E900C61B40 /* Observable.swift */; };
 		30FDA00E2365CAB2000F299C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDA00D2365CAB2000F299C /* AppDelegate.swift */; };
 		30FDA0132365CAB2000F299C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FDA0112365CAB2000F299C /* Main.storyboard */; };
 		30FDA0152365CAB3000F299C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FDA0142365CAB3000F299C /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30866007239A32E900C61B40 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		30FDA00A2365CAB2000F299C /* AnimalManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FDA00D2365CAB2000F299C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30FDA0122365CAB2000F299C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				30FDA03D2365CAD4000F299C /* AnimalRegisterViewModel.swift */,
 				30FDA03E2365CAD4000F299C /* AnimalListViewModel.swift */,
+				30866007239A32E900C61B40 /* Observable.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30866008239A32E900C61B40 /* Observable.swift in Sources */,
 				30FDA0432365CAD4000F299C /* ConfigurableCell.swift in Sources */,
 				30FDA0572365CAD4000F299C /* AnimalRegisterViewModel.swift in Sources */,
 				30FDA04A2365CAD4000F299C /* Animal.swift in Sources */,
